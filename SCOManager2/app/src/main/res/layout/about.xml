@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/wallpaper">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="About SCO"
+                android:id="@+id/textView31"
+                android:layout_gravity="center_horizontal|top"
+                android:textStyle="bold"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="National SCO Vision"
+            android:id="@+id/textView32"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="“Our vision is to build students in South Africa into communities of disciples transformed by Jesus Christ, impacting the School, the University, the Church and society for the glory of God”"
+            android:id="@+id/textView33"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Our Branch Mission"
+            android:id="@+id/textView34"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="“Developing and uniting students with God’s love, encouraging spiritual growth and academic excellence for His glory.”"
+            android:id="@+id/textView35"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Our 2015 Branch Objectives"
+            android:id="@+id/textView36"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Love Centered Family – Soul Winning and Discipleship – Academic Excellence – Spiritual Growth – Skills Development – Restoration"
+            android:id="@+id/textView37"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Our 2015 Branch Motto"
+            android:id="@+id/textView38"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="“It’s a spiritual thing.“"
+            android:id="@+id/textView39"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/wallpaper">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Contact Us"
+            android:id="@+id/textView16"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Students’ Christian Organisation"
+                android:id="@+id/textView28"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Corner of Keizersgracht and Tennant Street Zonnebloem, Cape Town, 7925  P.O. Box: 652, Cape Town, 8000, Room 3.01 Student Centre, CPUT  Chairperson: 0789750473 / General Secretary: 0739191507"
+                android:id="@+id/textView29"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="We have services every Friday  Time: 17:30 – 20:30  Venue: CPUT Cape Town Campus, Science Building, Room 2.70"
+                android:id="@+id/textView30"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:paddingTop="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
